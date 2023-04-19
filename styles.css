@@ -1,0 +1,137 @@
+
+#content{
+width: 80%;
+margin: auto;
+padding: 8px; 
+}
+#main-nav ul{
+	list-style-type: none;
+	text-align: center;
+	} 
+	#main-nav li{
+		display: inline;
+		} 
+
+	
+#main-nav a{ 
+		text-decoration:none;
+		background: #F3FCAE;
+		padding: 5px;
+		color: black;
+		display: inline; 
+	} 
+
+h1,h2{
+	text-align: center; 
+} 
+#yourname{ 
+	width: 200px;
+}
+#youremail{ 
+	width: 200px;
+}
+#yourmessage{ 
+	width: 200px;
+	height: 80px;
+} 
+
+.hidden{
+	display:none;
+} 
+
+
+header{
+	background: #C7FCE5;
+	padding: 5px;
+}
+nav{
+	background: #C7FCE5;
+		padding: 5px;
+	
+}
+
+img{ 
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+	/*<h3>Contact Me</h3>
+			<p>Name:</p>
+			<input id="yourname">
+			<p>Email:</p>
+			<input id="youremail">
+			<p>Message:</p>
+			<input id="yourmessage"> 
+			<br>
+			<button>Send</button>*/  
+
+main{
+	background: #A0A7D9;
+		padding: 5px;
+}
+
+footer{
+	background: #C7FCE5;
+		padding: 5px;
+		text-align: center; 
+	} 
+
+
+/* display block*/ 
+.col-main{ 
+
+		padding: 8px;
+}
+.col-sidebar{ 
+	
+		padding: 8px;
+} 
+.column{
+	padding: 8px;
+	flex:1;
+} 
+.gallery{ 
+	display:grid; 
+	grid-gap:2em; 
+	grid-template-columns: repeat(auto-fill, 175px); 
+	grid-template-rows: 175px 175px 175px; 
+padding: 10px; 
+}  
+
+@media print{ 
+	#main-nav{ 
+		display:none;
+	}
+	header, footer{ 
+		display: none;
+	} 
+	body{
+		font: serif; 
+		padding: none; 
+	} 
+	#content{
+		width: 100%;
+		margin: none; 
+	} 
+} 
+	@media screen and (max-width: 720px) {
+		#main-nav ul{ 
+			padding-left: 0;
+			text-align: left;}
+			#main-nav a{ 
+				width: 100%; 
+				display: block;
+			} 
+			#main-nav li{ 
+				padding:1px;
+			} 
+			.col-container{ 
+				display: block;
+			} 
+		
+		
+		} 
+			
+	

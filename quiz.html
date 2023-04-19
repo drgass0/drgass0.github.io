@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+	<title>Project
+	</title>
+	<!--Delaney Gass CSCE 102 section 14. 1/18/2023-->
+</head>
+<body>
+	<div id="content">
+		<header>
+			<h1>Delaney Gass</h1>
+		</header>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="quiz.html">Quiz</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+		<main class="col-container">
+		<img src="images/sunrise.jpg" alt="sunrise over beach" id="sunrise"> 
+			<section class="col-main">
+			<h2>Quiz</h2>
+			<label for "q1">What is not an example of an inline element?</label>
+			<br>
+			<select id="q1-ans">
+			<option> img </option>
+			<option>p</option>
+			<option> strong </option>
+			<option> em </option>
+			</select>
+			<br>
+			<label for "q2">How many different sized header tags are there?</label>
+			<br>
+			<select id="q2-ans">
+			<option> 2</option>
+			<option> 5 </option>
+			<option> 3 </option>
+			<option>4</option>
+			</select>
+			<br>
+			<label for "q3">What did we use to alter stylistic items of a webpage?</label>
+			<br>
+			<select id="q3-ans">
+			<option> javascript </option>
+			<option> script.js </option>
+			<option> index.html</option>
+			<option>styles.css</option>
+			</select>
+			<br>
+			<label for "q4">How should HTML be written</label>
+			<br>
+			<select id="q4-ans">
+			<option> all uppercase </option>
+			<option>all lowercase</option>
+			<option> italics</option>
+			<option> regular sentence format</option>
+			</select>
+			<br>
+			<button onclick="showResults()"> Submit</button> 
+			<div id="result"> 
+			</div> 
+			<div id="total">
+			</div"> 
+			</main>
+		<footer>
+		<p>&copy; My copywrite</p>
+		</footer> 
+	</div>
+	<script src="script.js"></script> 
+</body>
+</html>
